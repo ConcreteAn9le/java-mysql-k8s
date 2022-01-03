@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/demo
+    username: root
+    password: password
+  jpa:
+    # 要操作的目标数据库的名称
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    # 是否在启动时初始化schema，默认为false
+    generate-ddl: true
+    # 是否启用SQL语句的日志记录，默认为false
+    show-sql: true
+    hibernate:
+    # DDL模式 默认为none
+      ddl-auto: create
