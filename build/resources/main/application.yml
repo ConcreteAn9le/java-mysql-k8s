@@ -11,6 +11,6 @@ spring:
     generate-ddl: true
     # 是否启用SQL语句的日志记录，默认为false
     show-sql: true
-    hibernate:
+#    hibernate:
     # DDL模式 默认为none
-      ddl-auto: create
+#      ddl-auto: create
