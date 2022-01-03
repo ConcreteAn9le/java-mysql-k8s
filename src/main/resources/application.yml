@@ -3,7 +3,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/demo
     username: root
-    password: password
+    password: A12345678.
   jpa:
     # 要操作的目标数据库的名称
     database-platform: org.hibernate.dialect.MySQL5Dialect
