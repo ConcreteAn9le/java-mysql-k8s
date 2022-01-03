@@ -10,6 +10,6 @@
         <module name="java-mysql-k8s.main" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="14" />
+    <bytecodeTargetLevel target="1.8" />
   </component>
 </project>
